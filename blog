@@ -1,0 +1,345 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Assignment3</title>
+      <link rel="stylesheet" href="style.css">
+  </head>  
+  <body>
+    <header><nav>
+
+<a href="index.html">HOME</a>
+<a href="blog.html">BLOG</a>
+    </nav>
+    </header>
+    <h1>The box model, Box-sizing & Box shadow</h1>
+    <div class="parent">
+      <h2>Exercise1</h2>
+      <div class="box"></div>
+    </div>
+<div class="marker-container">
+<span class="circle1"></span>
+<span>#99d8ca</span>
+
+<span class="circle2"></span>
+<span>#5873e2</span>
+
+<span class="circle3"></span>
+<span>#0d1430</span>
+
+<span class="circle4"></span>
+<span>#90ffa9</span>
+
+
+</div>
+  <hr>
+  <div class="exercise2">
+  <h2>Exercise Two</h2></div>
+  
+  <div class="container">
+  <div class="child1"></div>
+  <div class="child2"></div>
+  <div class="child3"></div>
+  </div>
+  <hr>
+  
+   <div class="container2">
+    <div class="child21"></div>
+    <div class="child22"></div>
+    <div class="child23"></div>
+    </div>
+  
+</body>
+</html>
+blog.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><nav>
+
+        <a href="index.html">HOME</a>
+        <a href="blog.html">BLOG</a>
+            </nav>
+            </header>
+
+<article>
+<div class="content1">
+<img src="bulb.png" alt="bulb">
+
+<div class="Hp"><h1 class="h12">The standard lorem ipsum passage, used since the 1500s</h1>
+<p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat reiciendis odio eveniet iste, quibusdam dignissimos eos deserunt excepturi. Ut aliquid eius accusamus quod tenetur maiores provident, optio deleniti numquam nihil. dignissimos eos deserunt excepturi. Ut aliquid eius accusamus quod tenetur maiores provident, optio deleniti numquam nihi</p>
+<a class="read" href="#">Read More</a>
+</div>
+</div>
+
+<div class="big-container">
+<div class="content2">
+<img src="girl.png" alt="girl">
+<div class="Hp2">
+    <h2>1914 translation by H.Rackham </h2>
+    <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consequatur quidem iusto itaque in accusantium, debitis rem obcaecati a veritatis cumque porro. Neque omnis ex soluta. Temporibus dicta nihil error in tempore dignissimos a libero, impedit facere repudiandae corporis explicabo?
+    </p>
+    <a class="readmore">Learn more</a>
+</div> </div>
+
+
+<div class="content3">
+    <img src="keyboard.png" alt="keyboard">
+    <div class="Hp3">
+        <h2>lorem ipsum simply a dummy text of the printing and typesetting </h2>
+        <p class="para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consequatur quidem iusto itaque in accusantium, debitis rem obcaecati a veritatis cumque porro. Neque omnis ex soluta. Temporibus dicta nihil error in tempore dignissimos a libero, </p>
+        <a  class="readmore" href="#">Learn more</a>
+    </div>
+</div>
+
+</article>
+</body>
+</html>
+style.css
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header{padding: 20px 0px;
+background-color: rgb(6, 6, 97);
+}
+nav,a{font-size: 20px;
+color: white;
+text-decoration: none;
+text-align: center;
+margin-left: 20px;
+
+}
+nav,a:hover{color: green;}
+
+
+
+
+h1{font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    }
+    h2{margin-top: 60px;
+    font-size: 22px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    }
+    
+    
+    .parent{text-align: center;}
+    .box{width: 100px;
+    height: 100px;
+    background-color: #99d8ca;
+    margin: 0 auto;
+    border: 10px solid #5873e2;
+    outline: 2px solid black;
+    box-shadow : 0 0 0 16px #90ffa9;
+    }
+    hr{width: 650px;
+    margin-top: 60px;
+    border:  1px dotted grey;
+    }
+    .exercise2{text-align: center;
+    margin-bottom: 30px;
+    
+    }
+    .container{font-size: 0;
+        width: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    }
+    
+    
+    .child1,.child2,.child3{width: 180px;
+    height: 100px;
+    margin: 10px;
+    background-color: grey;
+    box-sizing: border-box;
+    display: inline-block;}
+    
+    .container1{width: 600px;     
+    border: 1px solid black;
+    margin: 0 auto;
+    }
+    
+    p{text-align: center;
+        margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 800;
+    }
+ 
+    
+   
+    
+    .container2{width: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    font-size: 0;
+    margin-top: 100px;
+    }
+    .child21,.child22,.child23{ width: 180px;
+        height: 100px;
+        margin: 10px;
+        background-color: grey;
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid black;
+    box-sizing: border-box;
+    }
+
+.marker-container{text-align: center;
+margin-top: 60px;
+}
+
+    .circle1{width: 20px;
+    height: 20px;
+    background-color: #99d8ca;
+  display: inline-block;
+    border-radius: 50%;
+vertical-align: middle;
+margin-left: 10px;
+}
+
+.circle2{width: 20px;
+    height: 20px;
+    background-color: #5873e2;
+    border-radius: 50%;
+vertical-align: middle; 
+display: inline-block;
+margin-left: 10px;
+}
+
+.circle3{width: 20px;
+    height: 20px;
+    background-color: #0d1430;
+    border-radius: 50%;
+vertical-align: middle;
+display: inline-block;
+margin-left: 10px;
+}
+
+.circle4{width: 20px;
+    height: 20px;
+    background-color: #90ffa9;
+    border-radius: 50%;
+vertical-align: middle;
+display: inline-block;
+margin-left: 10px;
+}
+
+/*blog*/
+article{padding-left: 300px;}
+
+.content1{display: flex;
+width: 800px;
+margin-top: 30px;
+}
+
+.Hp{padding-left: 50px;
+
+}
+
+img{width: 400px;
+height: 300px;
+margin-top: 40px;
+}
+.h12{font-size: 20px;
+font-weight: 900;
+}
+.para1{font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+
+}
+.read{padding: 8px;
+background-color: rgb(17, 194, 17);
+border-radius: 20px;
+}
+.content2{width: 400px;}
+.para2{font-size:16px;
+font-weight: 500;
+line-height: 1.5;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+
+.content3{width: 400px;
+padding-left: 50px;
+}
+
+
+.big-container{display: flex;
+flex-direction: row;
+}
+.para3{font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.readmore{font-size: 18px;
+color: rgb(10, 184, 10);
+}
+
+
+
+
+
+
+
